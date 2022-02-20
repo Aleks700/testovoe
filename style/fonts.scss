@@ -1,0 +1,20 @@
+
+
+@font-face{
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    src: local('Open Sans'),
+    url("/style/fonts/OpenSans/OpenSans-Regular.ttf");
+};
+@font-face{
+    font-family: "Open Sans italic";
+    font-style: italic;
+    font-weight: normal;
+    src: local('Open Sans'),
+    url("/style/fonts/OpenSans/OpenSans-Italic.ttf");
+};
+h1{
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans italic';
+};

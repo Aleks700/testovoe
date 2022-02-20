@@ -1,0 +1,17 @@
+body{
+    // background-color: rgb(84, 84, 189);
+    margin: 0;
+    padding: 0;
+    color: #000000;
+    font-size: 15px;
+    box-sizing: border-box;
+};
+
+
+@import 'fonts.scss';
+@import 'header.scss';
+
+a{
+    text-decoration: none;
+}
+
