@@ -14,7 +14,7 @@ nav{
     align-items: center;
    
     p{
-        font-size: 1.5rem;
+        font-size: 20px;
     };
     a{
         color: black;
@@ -26,14 +26,19 @@ nav{
 .header-section{
     background: url('/img/pexels-photo-356056.jpg') no-repeat center center;
     background-size: cover;
-};
-.header-block{
+    height: 90vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+};
+.header-block{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
     width: 85vw;
-    height: 90vh;
+    height: 35vh;
     margin: auto;
 };
 .btn-white{
@@ -61,19 +66,33 @@ nav{
     justify-content: center;
     align-items: center;
     h1{
+        font-size: 60px;
         color: #ffffff;
+        margin-bottom: 10px;
     };
     p{
+        font-size: 22px;
         color: #FFFFFF;
+        margin-bottom: 10px;
     };
     // justify-content: center;
     // align-items: center;
 };
-.search-logo
-{
-    display: flex;
-    align-items: center;
-   img{
-       height: 30px;
-   }
+// .search-logo
+// {
+//     display: flex;
+//     align-items: center;
+//    img{
+//        height: 30px;
+//    };
+// };
+
+
+.search-logo{
+    max-width: 20px;
+}
+.arrow{
+    position: relative;
+    max-width: 30px;
+    bottom: 10vh;
 }

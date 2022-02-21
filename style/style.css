@@ -1,4 +1,4 @@
-body {
+* {
   margin: 0;
   padding: 0;
   color: #000000;
@@ -40,7 +40,7 @@ nav {
   align-items: center;
 }
 .header p {
-  font-size: 1.5rem;
+  font-size: 20px;
 }
 .header a {
   color: black;
@@ -53,15 +53,20 @@ nav {
 .header-section {
   background: url("/img/pexels-photo-356056.jpg") no-repeat center center;
   background-size: cover;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .header-block {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   width: 85vw;
-  height: 90vh;
+  height: 35vh;
   margin: auto;
 }
 
@@ -85,19 +90,31 @@ nav {
   padding: 1rem;
 }
 
+.header-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .header-text h1 {
+  font-size: 60px;
   color: #ffffff;
+  margin-bottom: 10px;
 }
 .header-text p {
+  font-size: 22px;
   color: #FFFFFF;
+  margin-bottom: 10px;
 }
 
 .search-logo {
-  display: flex;
-  align-items: center;
+  max-width: 20px;
 }
-.search-logo img {
-  height: 30px;
+
+.arrow {
+  position: relative;
+  max-width: 30px;
+  bottom: 10vh;
 }
 
 a {
